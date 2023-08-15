@@ -1,0 +1,202 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    height: 16vh;
+    background-color: #3366FF;
+    opacity: 1;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .titulo {
+    color: white;
+    font-family: Mina;
+    font-weight: Regular;
+    font-size: 210%;
+  }
+  
+  .logo {
+    width: 8%;
+    height: 88%;
+    background: url("logo.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin-right: 1.2%;
+  }
+
+main{
+position: relative;
+display: flex;
+height: 84vh;
+width: 100%;
+flex-direction: row;
+}
+
+
+
+.lado {
+    width: 26.5%;
+    height: 84vh;
+    background-color: gray;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    position: relative;
+    order: 1;
+}
+
+a{  width: 37%;
+    height: 15%;
+    background-color: white;
+    margin: 3.8%;
+    margin-left: 7%;
+    box-sizing: border-box;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+
+.b1 {
+  background-image: url("quadrado.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.b2 {
+  background-image: url("triangulo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.b3 {
+  background-image: url("retangulo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.b4 {
+  background-image: url("circulo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.b5 {
+  background-image: url("pentagono.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.b6 {
+  background-image: url("hexagono.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.b7 {
+  background-image: url("paralelogramo.png");
+}
+
+.b8 {
+  background-image: url("cubo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.b9 {
+  background-image: url("piramide.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.b10 {
+  background-image: url("prisma.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.centro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 84vh;
+    width: 73.5%;
+    order: 2;
+  }
+  
+  .container {
+    max-width: 400px;
+    padding: 20px;
+    background-color: #252525;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    color: #fff;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #fff;
+  }
+  
+  h3 {
+   text-align: left;
+   color: #fff;
+  }
+  
+  label {
+   display: block;
+   margin-bottom: 10px;
+   color: #fff;
+  }
+  
+  input[type="number"] {
+   width: 100%;
+   padding: 10px;
+   border: none;
+   border-radius: 3px;
+   background-color: #333;
+   color: #fff;
+  }
+  
+  button {
+   display: block;
+   width: 100%;
+   padding: 10px;
+   margin-top: 10px;
+   background-color: #3366FF;
+   color: #fff;
+   border: none;
+   border-radius: 3px;
+   cursor: pointer;
+  }
+  
+  button:hover {
+   background-color:#D9D9D9 ;
+  }
+  
+  #result {
+   margin-top: 20px;
+   padding: 10px;
+   background-color:#f9f9f9 ;
+   border:none ;
+   border-radius:3px ;
+   text-align:center ;
+   font-weight:bold ;
+  }
+  
+  
+    
+  
